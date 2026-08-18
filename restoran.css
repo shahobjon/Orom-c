@@ -1,0 +1,806 @@
+.orom {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: whitesmoke;
+    -webkit-text-stroke: 3px rgb(10, 61, 242);
+    paint-order: stroke fill;
+}
+
+.rsm {
+    position: relative;
+    margin-top: 170px;
+    margin-left: 50px;
+    height: 400px;
+    text-align: center;
+}
+
+body {
+    background-image: url(set-of-restaurant-doodles-food-and-drinks-on-black-background-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h3 {
+    font-family: "Ballet", cursive;
+    text-align: center;
+    color: rgb(252, 193, 2);
+    font-size: 25px;
+    -webkit-text-stroke: 3px rgb(178, 255, 234);
+    paint-order: stroke fill;
+
+    position: relative;
+    z-index: stroke fill;
+}
+
+.h3 {
+    font-family: "Ballet", cursive;
+    text-align: center;
+    color: rgb(252, 193, 2);
+    font-size: 25px;
+    -webkit-text-stroke: 3px rgb(178, 255, 234);
+    paint-order: stroke fill;
+
+    position: relative;
+    z-index: 10;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.salad-item img {
+    width: 100%;
+    display: block;
+}
+
+
+.h4 {
+    font-family: "Ballet", cursive;
+    text-align: center;
+    color: rgb(252, 193, 2);
+    font-size: 25px;
+    -webkit-text-stroke: 3px rgb(178, 255, 234);
+    paint-order: stroke fill;
+
+    position: relative;
+    z-index: 10;
+}
+
+.MENU {
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-size: 30px;
+    color: rgb(242, 0, 0);
+    -webkit-text-stroke: 3px white;
+    paint-order: stroke fill;
+}
+
+p {
+    font-family: "Lobster", cursive;
+}
+
+.plov {
+    position: absolute;
+    left: 500px;
+    top: 250px;
+    text-align: center;
+}
+
+.plov img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.plov img:hover {
+    width: 200px;
+}
+
+.plov p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.sh {
+    position: absolute;
+    left: -480px;
+    top: 0;
+    text-align: center;
+}
+
+.sh img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.sh img:hover {
+    width: 200px;
+}
+
+.sh p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.m {
+    position: absolute;
+    left: -250px;
+    top: 0;
+    text-align: center;
+}
+
+.m img {
+    width: 200px;
+    transition: 0.5s ease;
+}
+
+.m img:hover {
+    width: 250px;
+}
+
+.m p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.n {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    text-align: center;
+}
+
+.n img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.n img:hover {
+    width: 200px;
+}
+
+.n p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.ch {
+    position: absolute;
+    left: 400px;
+    top: 0;
+    text-align: center;
+}
+
+.ch img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.ch img:hover {
+    width: 200px;
+}
+
+.ch p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(249, 253, 4);
+}
+
+.s {
+    position: absolute;
+    left: 600px;
+    top: 0;
+    text-align: center;
+}
+
+.s img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.s img:hover {
+    width: 200px;
+}
+
+.s p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.e {
+    position: absolute;
+    left: 20px;
+    top: 500px;
+    text-align: center;
+}
+
+.e img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.e img:hover {
+    width: 170px;
+}
+
+.e p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.sola-sola {
+    position: absolute;
+    left: 270px;
+    top: 500px;
+    text-align: center;
+}
+
+.sola-sola img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.sola-sola img:hover {
+    width: 170px;
+}
+
+.sola-sola p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.fanta {
+    position: absolute;
+    left: 500px;
+    top: 500px;
+    text-align: center;
+}
+
+.fanta img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.fanta img:hover {
+    width: 170px;
+}
+
+.fanta p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.sprite {
+    position: absolute;
+    left: 700px;
+    top: 500px;
+    text-align: center;
+}
+
+.sprite img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.sprite img:hover {
+    width: 170px;
+}
+
+.sprite p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.mirinda {
+    position: absolute;
+    left: 900px;
+    top: 500px;
+    text-align: center;
+}
+
+.mirinda img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.mirinda img:hover {
+    width: 170px;
+}
+
+.mirinda p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.up {
+    position: absolute;
+    left: 1100px;
+    top: 500px;
+    text-align: center;
+}
+
+.up img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.up img:hover {
+    width: 170px;
+}
+
+.up p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.majnuntol {
+    position: absolute;
+    left: 20px;
+    top: 900px;
+    text-align: center;
+}
+
+.majnuntol img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.majnuntol img:hover {
+    width: 200px;
+}
+
+.majnuntol p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.olivia {
+    position: absolute;
+    left: 270px;
+    top: 900px;
+    text-align: center;
+}
+
+.olivia img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.olivia img:hover {
+    width: 200px;
+}
+
+.olivia p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.sezar {
+    position: absolute;
+    left: 500px;
+    top: 900px;
+    text-align: center;
+}
+
+.sezar img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.sezar img:hover {
+    width: 200px;
+}
+
+.sezar p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.grecheskiy {
+    position: absolute;
+    left: 700px;
+    top: 900px;
+    text-align: center;
+}
+
+.grecheskiy img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.grecheskiy img:hover {
+    width: 200px;
+}
+
+.grecheskiy p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.achichuk {
+    position: absolute;
+    left: 900px;
+    top: 900px;
+    text-align: center;
+}
+
+.achichuk img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.achichuk img:hover {
+    width: 200px;
+}
+
+.achichuk p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.vinegret {
+    position: absolute;
+    left: 1100px;
+    top: 900px;
+    text-align: center;
+}
+
+.vinegret img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.vinegret img:hover {
+    width: 200px;
+}
+
+.vinegret p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.ovchi {
+    position: absolute;
+    left: 270px;
+    top: 1100px;
+    text-align: center;
+}
+
+.ovchi img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.ovchi img:hover {
+    width: 200px;
+}
+
+.ovchi p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.baqlajonli {
+    position: absolute;
+    left: 600px;
+    top: 1100px;
+    text-align: center;
+}
+
+.baqlajonli img {
+    width: 150px;
+    text-align: center;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.baqlajonli img:hover {
+    width: 200px;
+}
+
+.baqlajonli p {
+    margin: 5px 0 0;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.sabzavot {
+    position: absolute;
+    left: 900px;
+    top: 1100px;
+    text-align: center;
+}
+
+.sabzavot img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.sabzavot img:hover {
+    width: 200px;
+}
+
+.sabzavot p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+h4 {
+    font-family: "Ballet", cursive;
+    text-align: center;
+    color: rgb(252, 193, 2);
+    font-size: 25px;
+    -webkit-text-stroke: 3px rgb(178, 255, 234);
+    paint-order: stroke fill;
+
+    position: relative;
+    z-index: 10;
+    margin-top: 450px;
+}
+
+
+.burger {
+    position: absolute;
+    left: 20px;
+    top: 1400px;
+    text-align: center;
+}
+
+.burger img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.burger img:hover {
+    width: 200px;
+}
+
+.burger p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.lavash {
+    position: absolute;
+    left: 270px;
+    top: 1400px;
+    text-align: center;
+}
+
+.lavash img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.lavash img:hover {
+    width: 200px;
+}
+
+.lavash p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.pitsa {
+    position: absolute;
+    left: 500px;
+    top: 1400px;
+    text-align: center;
+}
+
+.pitsa img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.pitsa img:hover {
+    width: 200px;
+}
+
+.pitsa p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.kartoshka {
+    position: absolute;
+    left: 700px;
+    top: 1400px;
+    text-align: center;
+}
+
+.kartoshka img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.kartoshka img:hover {
+    width: 200px;
+}
+
+.kartoshka p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.chicken {
+    position: absolute;
+    left: 900px;
+    top: 1400px;
+    text-align: center;
+}
+
+.chicken img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.chicken img:hover {
+    width: 200px;
+}
+
+.chicken p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.hotdog {
+    position: absolute;
+    left: 1100px;
+    top: 1400px;
+    text-align: center;
+}
+
+.hotdog img {
+    width: 150px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.hotdog img:hover {
+    width: 200px;
+}
+
+.hotdog p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: rgb(250, 254, 2);
+}
+
+.footer {
+    background: #111;
+    color: white;
+    padding: 50px 8% 20px;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    margin-top: 300px;
+    clear: both;
+}
+
+.manzilimizz {
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer-logo h2 {
+    font-family: "Ballet", cursive;
+    font-size: 45px;
+    margin:  0 0 10px;
+}
+
+.footer-logo p {
+    color: #aaa;
+    margin: 0;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-contact a,
+.footer-contact div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-contact i {
+    font-size: 18px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-social a {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #222;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.footer-social a:hover {
+    transform: translateY(-4px);
+   
+}
+
+.footer-bottom {
+    margin-top: 170px;
+    
+    text-align: center;
+    color: #888;
+}
